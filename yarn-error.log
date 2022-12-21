@@ -1,0 +1,35 @@
+Arguments: 
+  /home/hellowodl/.local/share/nvm/v18.12.1/bin/node /home/hellowodl/.local/share/nvm/v18.12.1/bin/yarn add @ethersproject/wallet
+
+PATH: 
+  /home/hellowodl/.local/share/nvm/v18.12.1/bin:/usr/local/bin:/usr/bin:/var/lib/snapd/snap/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/hellowodl/.local/share/JetBrains/Toolbox/scripts
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/hellowodl/hyperplay/verify-typed-data-server/package.json: Unexpected token } in JSON at position 84
+      at JSON.parse (<anonymous>)
+      at /home/hellowodl/.local/share/nvm/v18.12.1/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/hellowodl/.local/share/nvm/v18.12.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/hellowodl/.local/share/nvm/v18.12.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "verify-typed-data-server",
+    "version": "1.0.0",
+    "main": "index.js",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
